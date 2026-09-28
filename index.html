@@ -138,7 +138,19 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "How It Works & FAQ",
+            "name": "Name Ideas & Use Cases",
+            "item": "https://name-combiner.online/#use-cases"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "How It Works",
+            "item": "https://name-combiner.online/#how-it-works"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "FAQ",
             "item": "https://name-combiner.online/#faq"
           }
         ]
@@ -214,6 +226,22 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Yes! The generator works identically for company co-founder names (e.g., Hewlett + Packard), brand attributes (e.g., Micro + Software -> Microsoft, Net + Flicks -> Netflix), pet names, and baby names where parents desire a compound moniker celebrating both parental lineages."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I combine mom and dad names to create a baby name?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enter the mother's name and father's name into the generator fields and click 'Combine Names'. The algorithm preserves phonetic segments and vowels from both parents' names (for example, Liam + Emma -> Lemi or Liem), ensuring both maternal and paternal heritage are honored in a harmonious, modern baby name."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I combine two last names for marriage or a merged family surname?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Instead of hyphenating long surnames, you can blend two family last names into a fresh hybrid surname using phonetic syllable splicing and syllable sandwiches."
             }
           },
           {
@@ -297,13 +325,19 @@
   <main class="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
 
     <!-- Hero Header Zone -->
-    <div class="text-center max-w-2xl mx-auto mb-10">
+    <div class="text-center max-w-2xl mx-auto mb-8">
       <h1 class="text-3xl sm:text-4xl md:text-5xl font-serif font-normal tracking-tight text-[#2c2724] mb-3 leading-tight">
         Blend Two Names Together
       </h1>
       <p class="text-base sm:text-lg text-[#755c4e] leading-relaxed">
         Create cute couple nicknames, unique baby names, or memorable business monikers. Natural syllable splitting that sounds easy to say out loud.
       </p>
+
+      <!-- AI Overview / Direct Answer Snippet for Search Engines -->
+      <div class="mt-4 p-3.5 bg-white border border-[#efe8df] rounded-xl text-left text-xs sm:text-[13px] text-[#755c4e] leading-relaxed shadow-xs flex items-start gap-2.5">
+        <span class="font-semibold text-[#b86147] shrink-0 pt-0.5">Quick Definition:</span>
+        <span>A <strong>name combiner</strong> blends two distinct words or names into one by identifying syllable roots, detecting overlapping letter sounds (portmanteaux), and smoothing consonant junctions for natural pronunciation.</span>
+      </div>
     </div>
 
     <!-- Main Generator Card -->
@@ -327,7 +361,7 @@
                 maxlength="30"
                 autocomplete="off"
                 placeholder="e.g. Alex"
-                value="Brad"
+                value=""
                 class="w-full h-12 px-3.5 rounded-xl bg-[#fcfbf9] border border-[#d1beaa] text-[#2c2724] placeholder-[#aa8871]/70 font-medium text-base focus:outline-none focus:border-[#b86147] focus:ring-1 focus:ring-[#b86147] transition-all"
               />
               <button
@@ -371,7 +405,7 @@
                 maxlength="30"
                 autocomplete="off"
                 placeholder="e.g. Jordan"
-                value="Angelina"
+                value=""
                 class="w-full h-12 px-3.5 rounded-xl bg-[#fcfbf9] border border-[#d1beaa] text-[#2c2724] placeholder-[#aa8871]/70 font-medium text-base focus:outline-none focus:border-[#b86147] focus:ring-1 focus:ring-[#b86147] transition-all"
               />
               <button
@@ -517,9 +551,9 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <!-- Card 1: Couples -->
-        <article class="p-5 rounded-2xl bg-white border border-[#efe8df] space-y-2.5">
+        <article class="p-4.5 rounded-2xl bg-white border border-[#efe8df] space-y-2">
           <div class="w-8 h-8 rounded-lg bg-[#fdf8f6] text-[#b86147] flex items-center justify-center font-semibold">
             <!-- Interlocking Blend Icon -->
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -529,53 +563,125 @@
             </svg>
           </div>
           <h3 class="text-base font-semibold text-[#2c2724]">Couples & Ship Names</h3>
-          <p class="text-xs sm:text-sm text-[#755c4e] leading-relaxed">
-            Create affectionate pet names, wedding monograms, or social media hashtags that blend both of your first names naturally.
+          <p class="text-xs text-[#755c4e] leading-relaxed">
+            Create affectionate pet names, wedding monograms, or social media hashtags that blend both partners' first names.
           </p>
-          <div class="text-xs text-[#b86147] font-medium pt-1">
+          <div class="text-xs text-[#b86147] font-medium pt-0.5">
             Brad + Angelina &rarr; Brangelina
           </div>
         </article>
 
         <!-- Card 2: Baby Names -->
-        <article class="p-5 rounded-2xl bg-white border border-[#efe8df] space-y-2.5">
+        <article class="p-4.5 rounded-2xl bg-white border border-[#efe8df] space-y-2">
           <div class="w-8 h-8 rounded-lg bg-[#fdf8f6] text-[#b86147] flex items-center justify-center font-semibold">
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
             </svg>
           </div>
-          <h3 class="text-base font-semibold text-[#2c2724]">Baby & Pet Names</h3>
-          <p class="text-xs sm:text-sm text-[#755c4e] leading-relaxed">
-            Honor both parents or grandparents by weaving shared letters into gentle, melodic names with comfortable pronunciation.
+          <h3 class="text-base font-semibold text-[#2c2724]">Mom & Dad Baby Names</h3>
+          <p class="text-xs text-[#755c4e] leading-relaxed">
+            Honor parents and grandparents by combining maternal and paternal names into soft, melodic child names.
           </p>
-          <div class="text-xs text-[#b86147] font-medium pt-1">
+          <div class="text-xs text-[#b86147] font-medium pt-0.5">
             Liam + Emma &rarr; Lemi / Liem
           </div>
         </article>
 
-        <!-- Card 3: Business & Brand Names -->
-        <article class="p-5 rounded-2xl bg-white border border-[#efe8df] space-y-2.5">
+        <!-- Card 3: Last Name Combiner -->
+        <article class="p-4.5 rounded-2xl bg-white border border-[#efe8df] space-y-2">
+          <div class="w-8 h-8 rounded-lg bg-[#fdf8f6] text-[#b86147] flex items-center justify-center font-semibold">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="text-base font-semibold text-[#2c2724]">Last Name Combiner</h3>
+          <p class="text-xs text-[#755c4e] leading-relaxed">
+            Blend two family surnames for marriage without lengthy hyphenations, creating a unified household identity.
+          </p>
+          <div class="text-xs text-[#b86147] font-medium pt-0.5">
+            Miller + Davis &rarr; Millis / Daviler
+          </div>
+        </article>
+
+        <!-- Card 4: Business & Brand Names -->
+        <article class="p-4.5 rounded-2xl bg-white border border-[#efe8df] space-y-2">
           <div class="w-8 h-8 rounded-lg bg-[#fdf8f6] text-[#b86147] flex items-center justify-center font-semibold">
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
             </svg>
           </div>
           <h3 class="text-base font-semibold text-[#2c2724]">Partnerships & Brands</h3>
-          <p class="text-xs sm:text-sm text-[#755c4e] leading-relaxed">
-            Combine founders' names or product concepts into crisp, memorable domain names and business brand labels.
+          <p class="text-xs text-[#755c4e] leading-relaxed">
+            Combine founders' names or product keywords into crisp, memorable domain names and business brand labels.
           </p>
-          <div class="text-xs text-[#b86147] font-medium pt-1">
+          <div class="text-xs text-[#b86147] font-medium pt-0.5">
             Net + Flicks &rarr; Netflix
           </div>
         </article>
       </div>
     </section>
 
-    <!-- FAQ & How It Works -->
+    <!-- How It Works Section -->
     <section id="how-it-works" class="mt-20 pt-12 border-t border-[#efe8df]">
+      <div class="max-w-3xl mx-auto space-y-6">
+        <div class="text-center sm:text-left">
+          <h2 class="text-2xl sm:text-3xl font-serif font-normal text-[#2c2724]">
+            How Name Blending Works
+          </h2>
+          <p class="text-sm text-[#755c4e] mt-1.5">
+            Our phonetic algorithm combines two words through four deliberate linguistic steps:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          <div class="p-4.5 rounded-xl bg-white border border-[#efe8df] space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-[#f8f5f0] text-[#b86147] font-semibold text-xs flex items-center justify-center">1</span>
+              <h3 class="text-sm font-semibold text-[#2c2724]">Syllable & Vowel Splitting</h3>
+            </div>
+            <p class="text-xs text-[#755c4e] leading-relaxed">
+              Names are divided at vocalic nucleus boundaries (a, e, i, o, u, y) to isolate melodic root syllables rather than cutting randomly.
+            </p>
+          </div>
+
+          <div class="p-4.5 rounded-xl bg-white border border-[#efe8df] space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-[#f8f5f0] text-[#b86147] font-semibold text-xs flex items-center justify-center">2</span>
+              <h3 class="text-sm font-semibold text-[#2c2724]">Portmanteau Detection</h3>
+            </div>
+            <p class="text-xs text-[#755c4e] leading-relaxed">
+              The engine checks for shared letters or sounds where both names naturally intersect (e.g. Brad + Angelina &rarr; Brangelina).
+            </p>
+          </div>
+
+          <div class="p-4.5 rounded-xl bg-white border border-[#efe8df] space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-[#f8f5f0] text-[#b86147] font-semibold text-xs flex items-center justify-center">3</span>
+              <h3 class="text-sm font-semibold text-[#2c2724]">Vocalic Bridging</h3>
+            </div>
+            <p class="text-xs text-[#755c4e] leading-relaxed">
+              When harsh consonant collisions happen between split halves, soft connector vowels (a, o, i) smooth the transition.
+            </p>
+          </div>
+
+          <div class="p-4.5 rounded-xl bg-white border border-[#efe8df] space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-[#f8f5f0] text-[#b86147] font-semibold text-xs flex items-center justify-center">4</span>
+              <h3 class="text-sm font-semibold text-[#2c2724]">Pronounceability Filter</h3>
+            </div>
+            <p class="text-xs text-[#755c4e] leading-relaxed">
+              Unpronounceable consonant clusters and awkward triple vowels are stripped so every generated blend rolls off the tongue.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="mt-20 pt-12 border-t border-[#efe8df]">
       <div class="max-w-2xl mx-auto space-y-8">
         
-        <div id="faq" class="text-center sm:text-left">
+        <div class="text-center sm:text-left">
           <h2 class="text-2xl sm:text-3xl font-serif font-normal text-[#2c2724]">
             Frequently Asked Questions
           </h2>
@@ -635,6 +741,36 @@
           <!-- FAQ 4 -->
           <details class="group bg-white border border-[#efe8df] rounded-xl p-4.5 transition-colors [&_summary::-webkit-details-marker]:hidden">
             <summary class="flex items-center justify-between cursor-pointer font-medium text-base text-[#2c2724] hover:text-[#b86147] transition-colors">
+              <span>How do I combine mom and dad names to create a baby name?</span>
+              <svg class="w-4 h-4 text-[#8e6f5c] group-open:rotate-180 transition-transform duration-200 flex-shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div class="mt-3 text-sm text-[#755c4e] leading-relaxed space-y-2 border-t border-[#f8f5f0] pt-3">
+              <p>
+                Enter the mother's name and father's name into the generator fields and click <strong>Combine Names</strong>. The algorithm isolates melodic syllables and vowels from both parents' names (for example, <em>Liam</em> + <em>Emma</em> &rarr; <em>Lemi</em> or <em>Liem</em>), ensuring both maternal and paternal heritage are honored in a harmonious baby name.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ 5 -->
+          <details class="group bg-white border border-[#efe8df] rounded-xl p-4.5 transition-colors [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex items-center justify-between cursor-pointer font-medium text-base text-[#2c2724] hover:text-[#b86147] transition-colors">
+              <span>Can I combine two last names for marriage or family surnames?</span>
+              <svg class="w-4 h-4 text-[#8e6f5c] group-open:rotate-180 transition-transform duration-200 flex-shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div class="mt-3 text-sm text-[#755c4e] leading-relaxed space-y-2 border-t border-[#f8f5f0] pt-3">
+              <p>
+                Yes! Instead of hyphenating long surnames, many couples blend both family last names into a fresh hybrid surname using syllable fusion and phonetic overlap.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ 6 -->
+          <details class="group bg-white border border-[#efe8df] rounded-xl p-4.5 transition-colors [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex items-center justify-between cursor-pointer font-medium text-base text-[#2c2724] hover:text-[#b86147] transition-colors">
               <span>Is this tool completely free?</span>
               <svg class="w-4 h-4 text-[#8e6f5c] group-open:rotate-180 transition-transform duration-200 flex-shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -665,6 +801,7 @@
       <div class="flex items-center gap-4 text-[#755c4e]">
         <a href="#generator" class="hover:text-[#2c2724] transition-colors">Tool</a>
         <a href="#use-cases" class="hover:text-[#2c2724] transition-colors">Ideas</a>
+        <a href="#how-it-works" class="hover:text-[#2c2724] transition-colors">How It Works</a>
         <a href="#faq" class="hover:text-[#2c2724] transition-colors">FAQ</a>
       </div>
       <div>
@@ -921,7 +1058,31 @@
     const countOverlapEl = document.getElementById('countOverlap');
     const countFavsEl = document.getElementById('countFavs');
 
-    // --- URL State Management ---
+    // --- URL & Hash State Management ---
+    function cleanUrlHash() {
+      if (window.location.hash) {
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    }
+
+    // Intercept in-page hash links to scroll smoothly without mutating the browser URL bar
+    function initSmoothNav() {
+      document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', (e) => {
+          const targetId = link.getAttribute('href').slice(1);
+          const targetEl = document.getElementById(targetId);
+          if (targetEl) {
+            e.preventDefault();
+            targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // Keep the address bar clean without appending #hash
+            if (window.history && window.history.replaceState) {
+              window.history.replaceState(null, '', window.location.pathname + window.location.search);
+            }
+          }
+        });
+      });
+    }
+
     function checkUrlParams() {
       const params = new URLSearchParams(window.location.search);
       const n1 = params.get('n1') || params.get('name1');
@@ -1211,6 +1372,8 @@
 
     // Initialize application on DOM ready
     document.addEventListener('DOMContentLoaded', () => {
+      cleanUrlHash();
+      initSmoothNav();
       updateClearButtons();
       checkUrlParams();
       if (!currentResults.length && firstNameInput.value && secondNameInput.value) {
