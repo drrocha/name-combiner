@@ -1,0 +1,68 @@
+# Name Combiner Online
+
+> A privacy-first, client-side phonetic name blending engine that combines two names or words into harmonious couple nicknames, baby names, merged family surnames, and brand portmanteaux.
+
+## Overview
+
+Name Combiner Online (https://name-combiner.online/) takes two input names and algorithmically generates natural, easy-to-pronounce combinations. Unlike naive text-slicing generators, it analyzes vocalic nuclei, detects phonetic overlaps, inserts bridging vowels when harsh consonant collisions occur, and strips unpronounceable letter clusters.
+
+- **Website**: https://name-combiner.online/
+- **Cost**: 100% Free, no account or registration required
+- **Privacy**: Runs entirely client-side in the browser; names are never sent to a database or tracked
+- **Output**: Ranked list of phonetic blends with instant one-click copying and personal favorites bookmarking
+
+---
+
+## Core Linguistic Algorithm
+
+The generator executes four linguistic passes on any pair of input names:
+
+1. **Syllable & Vocalic Nucleus Splitting**:
+   - Identifies vowel centers (a, e, i, o, u, y) and splits names at phonetic boundaries rather than arbitrary character indices.
+   - Preserves melodic roots from both words.
+
+2. **Portmanteau & Overlap Detection**:
+   - Scans for identical letters or shared phonetic sounds where Name A ends and Name B begins (e.g., *Brad* + *Angelina* → *Brangelina*).
+   - Fuses overlapping transitions to eliminate stuttering syllables.
+
+3. **Vocalic Bridging**:
+   - Detects clashing consonant junctions (such as plosives or fricatives back-to-back).
+   - Automatically bridges the gap with harmonic transition vowels (*-a-*, *-o-*, *-i-*).
+
+4. **Pronounceability Filtering**:
+   - Filters out awkward triple vowels and impossible consonant clusters.
+   - Capitalizes proper names cleanly and outputs the most euphonic options first.
+
+---
+
+## Primary Use Cases
+
+- **Couple & Ship Names**:
+  - URL: https://name-combiner.online/#use-cases
+  - Combines two partners' first names for wedding hashtags, anniversary monograms, relationship nicknames, and fictional character fandom pairings.
+  - *Example*: Brad + Angelina → Brangelina
+
+- **Mom & Dad Baby Names**:
+  - URL: https://name-combiner.online/#use-cases
+  - Blends maternal and paternal names into fresh, melodic baby first or middle names that celebrate both families' heritage.
+  - *Example*: Liam + Emma → Lemi / Liem
+
+- **Merged Family Surnames (Last Name Combiner)**:
+  - URL: https://name-combiner.online/#use-cases
+  - Combines two last names upon marriage or civil union as an alternative to hyphenated surnames.
+  - *Example*: Miller + Davis → Millis / Daviler
+
+- **Business, Brand, & Product Monikers**:
+  - URL: https://name-combiner.online/#use-cases
+  - Merges co-founders' names, partner companies, or descriptive keywords into catchphrases, brand names, and brandable domain handles.
+  - *Example*: Net + Flicks → Netflix
+
+---
+
+## Site Navigation & Resources
+
+- [Name Combiner Tool](https://name-combiner.online/#generator): Interactive generator card to blend two names.
+- [Use Cases & Name Ideas](https://name-combiner.online/#use-cases): Inspiration and examples across couples, babies, surnames, and brands.
+- [How It Works](https://name-combiner.online/#how-it-works): Deep-dive into syllable splitting and pronounceability scoring.
+- [Frequently Asked Questions](https://name-combiner.online/#faq): Common inquiries about phonetic portmanteaux and usage rights.
+- [Sitemap](https://name-combiner.online/sitemap.xml): Machine-readable XML sitemap index.
